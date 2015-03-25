@@ -78,7 +78,7 @@ namespace juego_memorize
                 this.botones[i] = new Button();
                 this.botones[i].Location = new Point(x, y);
                 this.botones[i].Size = new Size(w, w);
-                this.botones[i].BackColor = Color.Blue;
+                this.botones[i].BackColor = Color.Red;
                 this.botones[i].Tag = i;
                 this.botones[i].Click += new EventHandler(this.boton_click);
                 this.Controls.Add(this.botones[i]);
