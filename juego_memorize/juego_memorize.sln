@@ -1,14 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "juego_memorize", "juego_memorize\juego_memorize.csproj", "{A726EFFC-885D-499F-AC03-1EC54E8A0AA9}"
-EndProject
-Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Instalador", "Instalador\Instalador.isproj", "{E773816A-25B4-4118-9489-5FBBA986E19D}"
-	ProjectSection(ProjectDependencies) = postProject
-		{A726EFFC-885D-499F-AC03-1EC54E8A0AA9} = {A726EFFC-885D-499F-AC03-1EC54E8A0AA9}
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,16 +24,6 @@ Global
 		{A726EFFC-885D-499F-AC03-1EC54E8A0AA9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A726EFFC-885D-499F-AC03-1EC54E8A0AA9}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
 		{A726EFFC-885D-499F-AC03-1EC54E8A0AA9}.SingleImage|Any CPU.Build.0 = Release|Any CPU
-		{E773816A-25B4-4118-9489-5FBBA986E19D}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
-		{E773816A-25B4-4118-9489-5FBBA986E19D}.CD_ROM|Any CPU.Build.0 = CD_ROM
-		{E773816A-25B4-4118-9489-5FBBA986E19D}.Debug|Any CPU.ActiveCfg = DVD-5
-		{E773816A-25B4-4118-9489-5FBBA986E19D}.Debug|Any CPU.Build.0 = DVD-5
-		{E773816A-25B4-4118-9489-5FBBA986E19D}.DVD-5|Any CPU.ActiveCfg = DVD-5
-		{E773816A-25B4-4118-9489-5FBBA986E19D}.DVD-5|Any CPU.Build.0 = DVD-5
-		{E773816A-25B4-4118-9489-5FBBA986E19D}.Release|Any CPU.ActiveCfg = SingleImage
-		{E773816A-25B4-4118-9489-5FBBA986E19D}.Release|Any CPU.Build.0 = SingleImage
-		{E773816A-25B4-4118-9489-5FBBA986E19D}.SingleImage|Any CPU.ActiveCfg = SingleImage
-		{E773816A-25B4-4118-9489-5FBBA986E19D}.SingleImage|Any CPU.Build.0 = SingleImage
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
